@@ -17,7 +17,13 @@ package scalismo.asm.io
 
 import breeze.linalg.{DenseMatrix, DenseVector}
 import scalismo.asm.ScalismoTestSuite
-import scalismo.asm.statisticalmodel.{ActiveShapeModel, GaussianGradientImagePreprocessor, NormalDirectionFeatureExtractor, Profile, Profiles}
+import scalismo.asm.statisticalmodel.{
+  ActiveShapeModel,
+  GaussianGradientImagePreprocessor,
+  NormalDirectionFeatureExtractor,
+  Profile,
+  Profiles
+}
 import scalismo.io.StatisticalModelIO
 import scalismo.numerics.FixedPointsUniformMeshSampler3D
 import scalismo.statisticalmodel.MultivariateNormalDistribution

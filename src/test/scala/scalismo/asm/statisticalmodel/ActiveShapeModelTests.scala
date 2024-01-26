@@ -5,7 +5,7 @@ import scalismo.asm.ScalismoTestSuite
 import scalismo.asm.statisticalmodel.ActiveShapeModel.TrainingData
 import scalismo.common.DiscreteField
 import scalismo.common.interpolation.NearestNeighborInterpolator
-import scalismo.geometry.{EuclideanVector, Point, _3D}
+import scalismo.geometry.{_3D, EuclideanVector, Point}
 import scalismo.io.statisticalmodel.StatismoIO
 import scalismo.io.{MeshIO, StatisticalModelIO}
 import scalismo.mesh.{MeshMetrics, TriangleMesh}

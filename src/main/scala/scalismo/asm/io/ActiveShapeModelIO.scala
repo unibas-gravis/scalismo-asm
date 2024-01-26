@@ -17,7 +17,13 @@ package scalismo.asm.io
 
 import breeze.linalg.{DenseMatrix, DenseVector}
 import io.jhdf.api.Group
-import scalismo.asm.statisticalmodel.{ActiveShapeModel, FeatureExtractorIOHandlers, ImagePreprocessorIOHandlers, Profile, Profiles}
+import scalismo.asm.statisticalmodel.{
+  ActiveShapeModel,
+  FeatureExtractorIOHandlers,
+  ImagePreprocessorIOHandlers,
+  Profile,
+  Profiles
+}
 import scalismo.common.PointId
 import scalismo.geometry._3D
 import scalismo.hdf5json.{FloatArray1D, HDFPath, IntArray1D}
