@@ -1,6 +1,6 @@
 import sbt.Resolver
 
-ThisBuild / version := "1.0-SNAPSHOT"
+ThisBuild / version := "1.0-RC1"
 
 Test / parallelExecution := false
 
@@ -43,7 +43,7 @@ lazy val root = (project in file("."))
     },
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.2.16" % "test",
-      "ch.unibas.cs.gravis" %% "scalismo-vtk" % "1.0-SNAPSHOT"
+      "ch.unibas.cs.gravis" %% "scalismo-vtk" % "1.0-RC1"
     )
   )
   .enablePlugins(GitBranchPrompt)
